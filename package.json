@@ -9,6 +9,7 @@
     "dev": "nodemon index.js"
   },
   "devDependencies": {
-    "nodemon": "^2.0.22"
+    "nodemon": "^2.0.22",
+    "start": "node index.js"
   }
 }
