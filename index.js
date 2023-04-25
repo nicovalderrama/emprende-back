@@ -1,3 +1,4 @@
+require('dotenv').config()
 const http = require('http')
 
 function requestController(){
@@ -8,4 +9,5 @@ function requestController(){
 //configurar servidor
 const server = http.createServer(requestController)
 
-server.listen(3000)
+port = process.env.PORT
+server.listen(port)
