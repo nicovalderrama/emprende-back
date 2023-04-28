@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
     "nodemon": "^2.0.22"
   },
   "dependencies": {
